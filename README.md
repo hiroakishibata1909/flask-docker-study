@@ -54,28 +54,33 @@ $ docker stop 275bf3446449
 # Flask Reference
 
 ## Flask on EC2
-install flask to EC2 instance
-
+install flask to EC2 instance  
 https://dev.classmethod.jp/server-side/language/flask-for-python-on-ec2/
 
 ## Flask on Docker(ECS)
-
 https://qiita.com/oyngtmhr/items/45a0d3158e6dccb0882d
 http://containertutorials.com/docker-compose/flask-simple-app.html
 
-
 ## CodeDeploy
-
 https://dev.classmethod.jp/server-side/language/flask-for-python-on-ec2/
 
 ## Web Domain
 https://qiita.com/yamanoku/items/c4f9c28d79f981afc40f
 
+## OpenCV Flask
+https://qiita.com/redshoga/items/60db7285a573a5e87eb6
+https://www.sejuku.net/blog/54272
+
 # GAN  Reference
 https://qiita.com/hrs1985/items/050acb15ce33675f07ec
 https://qiita.com/hrs1985/items/926f9c4e635aac659675#_reference-8ce0bd626428b5d00bcc  
 https://qiita.com/pekatuu/items/d9bd133b453c314ab31d
+https://www.inoue-kobo.com/ai_ml/gan-pikachu/index.html
 
 ## Keras-GAN
 https://github.com/eriklindernoren/Keras-GAN
 https://github.com/eriklindernoren/Keras-GAN/tree/master/cyclegan
+https://www.inoue-kobo.com/ai_ml/gan-pikachu/index.html
+
+## Auto Encoder
+https://qiita.com/koshian2/items/603106c228ac6b7d8356
