@@ -7,7 +7,9 @@ https://qiita.com/kurkuru/items/127fa99ef5b2f0288b81
 ## Execute Flask application
 0. Confirm necessary files
 ```
+$ git clone https://github.com/hiroakishibata1909/flask-docker-study.git
 
+$ cd Docker/
 $ ls -la
 total 24
 drwxr-xr-x 3 ec2-user ec2-user 4096 Aug 12 02:54 .
