@@ -33,17 +33,17 @@ flask-fargate       ver3                93dbd8d03df9        25 seconds ago      
 
 2. Execute docker process (Execute python program)
 ```
-$ docker run -d -p 5000:5000 flask-fargate:ver3
+$ docker run -d -p 8080:8080 flask-fargate:ver3
 275bf3446449991a978ee638c438d8df4758fb027568ccf5988b7bc3ee802922 
 
 $ docker ps
 CONTAINER ID        IMAGE                COMMAND             CREATED             STATUS              PORTS                    NAMES
-275bf3446449        flask-fargate:ver3   "python app.py"     2 minutes ago       Up 2 minutes        0.0.0.0:5000->5000/tcp   quizzical_brattain
+275bf3446449        flask-fargate:ver3   "python app.py"     2 minutes ago       Up 2 minutes        0.0.0.0:8080->8080/tcp   quizzical_brattain
 ```
 
 3.  Access Flask Web application on blowser
 ```
-http://localhost:5000
+http://localhost:8080
 ```
 
 4. Stop docker process (Stop python program)

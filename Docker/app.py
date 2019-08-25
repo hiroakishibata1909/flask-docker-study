@@ -1,7 +1,7 @@
 import os
 from flask import Flask, request, redirect, url_for
 from werkzeug.utils import secure_filename
-
+from flask import send_from_directory
 
 UPLOAD_FOLDER = './uploads'
 ALLOWED_EXTENSIONS = set(['png', 'PNG', 'jpg', 'gif'])
@@ -48,16 +48,10 @@ def upload_file():
     </html>
     '''
 
-
-from flask import send_from_directory
-
 @app.route('/uploads/<filename>')
 def uploaded_file(filename):
     return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
-    
-    # @app.route('/hello')
-    # def hello_world():
-    #     return 'Hello world Docker Flask app'
+
     
 if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0', port=8080)
